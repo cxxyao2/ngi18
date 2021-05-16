@@ -1,10 +1,20 @@
 {
   "hosting": {
     "public": "dist/ngi18n",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "/en{,/**}",
+        "destination": "/en/index.html"
+      },
+      {
+        "source": "/fr{,/**}",
+        "destination": "/fr/index.html"
+      },
+      {
+        "source": "/de{,/**}",
+        "destination": "/de/index.html"
+      }
     ]
   }
 }
