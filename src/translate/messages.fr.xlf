@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="360ceda689e208a8c6afcb2f0a7158cffc4d63a2" datatype="html">
+        <source>welcome home</source>
+        <target>Bienvenue</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1d2da7799d7ff034664fcc40d9b80607ba13a71d" datatype="html">
+        <source>404 Error.Please verify your url.</source>
+        <target>404 Erreur.Verifier votre site web ,SVP.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/not-found/not-found.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b16eacc0a30d84d1d5b05dc4976638f05bb153a7" datatype="html">
+        <source>We are startup company located in Canada.</source>
+        <target>Nous sommes une nouvelle entreprise au Canada.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
